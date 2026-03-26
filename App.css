@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.join input, .input-box input {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.chat-box {
+  width: 400px;
+  margin: auto;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: scroll;
+  background: #1e293b;
+  padding: 10px;
+}
+
+.input-box {
+  display: flex;
+}
